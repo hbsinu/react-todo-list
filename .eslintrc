@@ -1,0 +1,55 @@
+{
+  "parser": "babel-eslint",
+  "env": {
+    "es6": true,
+    "browser": true,
+    "node": true,
+    "commonjs": true
+  },
+  // "extends": ["airbnb", "airbnb/hooks", "eslint:recommended"],
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "paths": ["src"],
+        "extensions": [".js", ".jsx"]
+      }
+    }
+  },
+  "rules": {
+    "linebreak-style":0,
+    "no-underscore-dangle": "off",
+    "arrow-body-style": "off",
+    "comma-dangle": "off",
+    "no-unused-vars": "off",
+    "import/no-unresolved": "off",
+    "jsx-a11y/anchor-is-valid": "off",
+    "jsx-a11y/click-events-have-key-events": "off",
+    "jsx-a11y/control-has-associated-label": "off",
+    "jsx-a11y/no-static-element-interactions": "off",
+    "no-console": "off",
+    "no-param-reassign": "off",
+    "no-plusplus": "off",
+    "react-hooks/exhaustive-deps": "off",
+    "react/forbid-prop-types": "off",
+    "react/jsx-filename-extension": "off",
+    "react/jsx-props-no-spreading": "off",
+    "react/require-default-props": "off",
+    "no-empty-pattern": "off",
+    "react/prefer-stateless-function" : "off",
+    "react/prop-types" : "off",
+    "object-curly-newline" : "off",
+    "no-nested-ternary": "off",
+    "arrow-parens" : "off",
+    "spaced-comment": "off",
+    "no-trailing-spaces": "off",
+    "no-confusing-arrow": "off",
+    "object-shorthand": ["error", "always"],
+    "semi": "off",
+    "camelcase": "off",
+    "lines-between-class-members" : 0,
+    "no-array-constructor" : "off",
+    "import/no-named-as-default": 0
+    //  "react/destructuring-assignment": ["<enabled>", "never"]
+
+  }
+}
